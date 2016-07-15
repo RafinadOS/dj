@@ -78,6 +78,10 @@ gulp.task('watch', function() {
    gulp.watch('*.html', ['html'])
    gulp.watch('less/*.less', ['less'])
    gulp.watch('js/*.js', ['js'])
+   gulp.watch('*.jpg', ['img'])
+   gulp.watch('*.jpg', ['img2'])
+   gulp.watch('*.png', ['img'])
+   gulp.watch('*.png', ['img2'])
 });
 
 // default tusk "gulp"
